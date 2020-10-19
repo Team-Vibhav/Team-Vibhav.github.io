@@ -9,4 +9,5 @@
 <ol>4) You are free to create your own issues and suggest new features to the website </ol>
 <ol>5) If you found a issue, but have no idea how to solve, no worries! push the issue the one interested to solve that issue will be assigned.</ol>
 <ol>6) You can work on utmost 2 issues at a single time.</ol>
+
 ## Happy Contributing :)
