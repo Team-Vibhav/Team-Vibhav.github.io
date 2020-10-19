@@ -2167,7 +2167,7 @@ input:-internal-autofill-selected {
 
 /* line 61, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
-  color: #fff;
+  color: #8d00ff;
   font-size: 16px;
   padding: 40px 25px;
   font-family: "Roboto", sans-serif;
@@ -2187,7 +2187,7 @@ input:-internal-autofill-selected {
 /* line 74, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link:hover {
   border-top: 2px solid #fff;
-  color: #fff;
+  color: #007bff;
 }
 
 /* line 84, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
@@ -2420,7 +2420,7 @@ input:-internal-autofill-selected {
   font-weight: 700;
   margin-bottom: 32px;
   line-height: 85px;
-  color: #fff;
+  color: #8d00ff;
 }
 
 @media (max-width: 576px) {
@@ -2470,7 +2470,7 @@ input:-internal-autofill-selected {
   line-height: 1.8;
   font-family: "Roboto", sans-serif;
   padding: 0 70px;
-  color: #fff;
+  color: #8d00ff;
   font-weight: 300;
 }
 
