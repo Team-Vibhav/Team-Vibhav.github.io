@@ -9216,3 +9216,9 @@ display:none;
   margin : auto;
   width : 90%;
 }
+
+.krtaCenter{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
