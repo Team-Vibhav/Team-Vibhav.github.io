@@ -2087,6 +2087,7 @@ input:-internal-autofill-selected {
   top: 0;
   width: 100%;
   z-index: 999;
+  background: #8d00ff;
 }
 
 /* line 11, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
