@@ -7567,7 +7567,6 @@ p {
 .top_cont_outer {
     background: #ED5441;
     position: relative;
-
     background: #0294FD url(../img/pattern-1.png) top left repeat;
 	height:650px;
 }
@@ -7662,10 +7661,6 @@ a.read_more:hover {
     color: #ED5441;
     border: 1px solid #ED5441;
 }
-
-
-
-
 
 
 
@@ -8927,9 +8922,6 @@ transition: all .3s;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
-
-
-
 /* Portfolio FullScreen Expander */
 
 #cycle-loader {
