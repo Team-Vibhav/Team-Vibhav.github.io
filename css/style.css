@@ -519,7 +519,7 @@ input:-internal-autofill-selected {
 }
 
 /* line 46, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_button.scss */
-.btn_2 {
+.btn_2, .btn_4{
   display: inline-block;
   padding: 13.5px 40px;
   text-align: center;
@@ -537,6 +537,13 @@ input:-internal-autofill-selected {
   border-bottom-right-radius: 20px;
   border-top-left-radius: 20px;
   background-size: 200% auto;
+}
+.btn_4{
+  border: 1px solid black;
+  transition: all 0s ease-in-out;
+}
+.btn_4:hover {
+  border: 3px solid black;
 }
 
 /* line 64, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_button.scss */
@@ -7198,8 +7205,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /*
 Author URI: http://webthemez.com/
-Note: 
-Licence under Creative Commons Attribution 3.0 
+Note:
+Licence under Creative Commons Attribution 3.0
 -------------------------------------------------------*/
 
 @charset "utf-8";
@@ -7442,7 +7449,7 @@ p {
 #header_wrapper {
     background: #ffffff;
     padding: 20px 0px;
-	
+
     border-top: 4px solid #0294FD;
 	box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
 }
@@ -7461,7 +7468,7 @@ p {
 .res-nav_click {
     display: none;
 }
-	
+
 
 /* Nav Styles
 ---------------------------------*/
@@ -7560,7 +7567,7 @@ p {
 .top_cont_outer {
     background: #ED5441;
     position: relative;
-	
+
     background: #0294FD url(../img/pattern-1.png) top left repeat;
 	height:650px;
 }
@@ -7605,7 +7612,7 @@ p {
 
 .top_left_cont h2 strong {
     font-weight: 700;
-	
+
     color: #FFC166;
 }
 
@@ -7656,7 +7663,7 @@ a.read_more:hover {
     border: 1px solid #ED5441;
 }
 
-	
+
 
 
 
@@ -7685,20 +7692,20 @@ a.read_more:hover {
 .service_block {
     text-align: center;
     padding-left: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
 	position: relative;
 }
 
-.service_icon {  
+.service_icon {
     width: 90px;
     height: 85px;
-    margin: 0px auto 25px; 
+    margin: 0px auto 25px;
 }
 
- 
+
 
 .service_icon span {
-    background: transparent; 
+    background: transparent;
     display: block;
     height: 100%;
     width: 100%;
@@ -7721,7 +7728,7 @@ text-align: center;
     font-weight: 600;
     font-size: 25px;
     color: #fff;
-margin: 35px 0 15px; 
+margin: 35px 0 15px;
 }
 #service h6{
 color:#fff;
@@ -7729,9 +7736,9 @@ color:#fff;
 .service_block p {
     font-size: 16px;
     color: #fff;
-    margin: 0 0 35px 0; 
+    margin: 0 0 35px 0;
 }
-	
+
 
 
 /* Latest Work
@@ -8011,7 +8018,7 @@ img {
 
 /* About Us
 --------------------------- */
- 
+
 .aboutUs-container {
 background-repeat: no-repeat;
 background-position: right;
@@ -8040,7 +8047,7 @@ background-position-y: 70px;
 .about-us h3{
 	font-size:28px;
 }
-.points{ 
+.points{
 	margin-bottom: 10px;
 	font-size:14px;
 	padding-left:0px;
@@ -8086,7 +8093,7 @@ background-position-y: 70px;
 
 .team_area {
     width: 30.66%;
-    margin-right: 3.82979%; 
+    margin-right: 3.82979%;
     overflow: hidden;
     text-align: center;
     float: left;
@@ -8123,7 +8130,7 @@ background-position-y: 70px;
 .team_box_shadow a {
     display: block;
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
 
 .team_box:hover .team_box_shadow {
@@ -8162,14 +8169,14 @@ background-position-y: 70px;
 .team_box ul li {
     display: inline-block;
     margin: 0 11px;
-	width: 34px; 
+	width: 34px;
 border-radius: 50%;
 background: #fff;
 padding: 10px 0 4px;
 margin-bottom: 5px;
 }
 
-.team_box ul li a { 
+.team_box ul li a {
     display: inline-block;
     font-size: 18px;
     color: #232323;
@@ -8226,7 +8233,7 @@ transition: all .3s;
 .page_section.contact {
     padding: 90px 0 100px;
 }
- 
+
 .contact_section {
     margin: 0 0 60px 0;
 }
@@ -8369,7 +8376,7 @@ transition: all .3s;
 .gplus a:hover {
     color: #dd4b39;
 }
- 
+
 
 .form {
     margin: 0 66px 0 30px;
@@ -8402,10 +8409,10 @@ transition: all .3s;
     height: 230px;
     resize: none;
     overflow: auto;
-    
+
 }
 
-.input-btn {    
+.input-btn {
     width: 175px;
     height: 50px;
     letter-spacing: 0px;
@@ -8515,9 +8522,9 @@ transition: all .3s;
 
 
 
-	
-/* Portfolio */	
-	
+
+/* Portfolio */
+
 .container.portfolio_title {
     padding-bottom: 0px;
 }
@@ -8528,7 +8535,7 @@ transition: all .3s;
 
 
 
-/* Portfolio Filters */	
+/* Portfolio Filters */
 
 #filters {
     margin-top: 10px;
@@ -8553,7 +8560,7 @@ transition: all .3s;
     background: none repeat scroll 0 0 #f7f7f7;
     border-radius: 4px;
     display: inline-block;
-    
+
     font-size: 12px;
     line-height: 20px;
     margin-bottom: 5px;
@@ -8594,7 +8601,7 @@ transition: all .3s;
 
 
 
-/* Portfolio Items */	
+/* Portfolio Items */
 
 #portfolio_wrapper {
     position: relative;
@@ -8676,7 +8683,7 @@ transition: all .3s;
     color: #fff;
     text-transform: uppercase;
     margin-top: 25px;
-    
+
     opacity: 0;
     font-size: 18px;
     transition: all 0.2s ease 0s;
@@ -8744,11 +8751,11 @@ transition: all .3s;
     -o-transition: opacity .3s .2s, margin-top .3s .2s;
     transition: opacity .3s .2s, margin-top .3s .2s;
 }
-	
-	
-	
-	
-/* Portfolio Isotope Transitions */	
+
+
+
+
+/* Portfolio Isotope Transitions */
 
 .isotope, .isotope .isotope-item {
     -webkit-transition-duration: 0.8s;
@@ -8784,7 +8791,7 @@ transition: all .3s;
 
 
 
-/* Portfolio Expander */	
+/* Portfolio Expander */
 
 
 
@@ -8857,10 +8864,10 @@ transition: all .3s;
     padding-bottom: 40px;
 }
 
-	
-/* Portfolio*/	
-	
-	
+
+/* Portfolio*/
+
+
 .project-image-slider .bx-wrapper .bx-next {
     background: url("images/project_slider_right.html") no-repeat;
     background-size: 35px 65px;
@@ -8890,9 +8897,9 @@ transition: all .3s;
     width: 35px;
     z-index: 100;
 }
-	
-/* Portfolio Normal Expander */		
-	
+
+/* Portfolio Normal Expander */
+
 .project-description {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -8920,11 +8927,11 @@ transition: all .3s;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
-	
-	
-	
-/* Portfolio FullScreen Expander */			
-	
+
+
+
+/* Portfolio FullScreen Expander */
+
 #cycle-loader {
     height: 32px;
     left: 50%;
@@ -9080,7 +9087,7 @@ background-position-y: 150px;
 @media (max-width: 768px) {
 .navStyle {
 float: right;
-width: auto; 
+width: auto;
 text-align: center;
 }
 .aboutUs-container{
@@ -9089,7 +9096,7 @@ text-align: center;
 p{
 font-size:14px;
 }
-.top_cont_outer { 
+.top_cont_outer {
 height: 335px;
 }
 .hero_section {
@@ -9115,11 +9122,11 @@ margin-bottom:20px;
 font-size:26px;
 line-height:22px;
 }
-.service_block h3 { 
+.service_block h3 {
 font-size: 16px;
 }
 service_block p {
-font-size: 14px; 
+font-size: 14px;
 margin: 0px;
 margin-bottom: 20px;
 }
@@ -9142,7 +9149,7 @@ padding: 11px 0;
 display: inline-block;
 }
 .social_links li {
-float: left; 
+float: left;
 }
 .contact_section{
 margin:0;
@@ -9152,7 +9159,7 @@ font-size: 30px;
 }
 .page_section.contact {
 padding: 60px 0 50px;
-} 
+}
 .navbar-inverse .navbar-toggle .icon-bar{
 background:#ED5441;
 }
@@ -9185,15 +9192,15 @@ margin: 0px;
 margin: 0px;
 }
 .navbar-inverse .navbar-nav > li > a {
-color: #222; 
+color: #222;
 font-size:12px;
 padding: 10px 11px;
 }
-} 
-@media (max-width: 480px){ 
+}
+@media (max-width: 480px){
 .navStyle {
 float: left;
-width: 100%; 
+width: 100%;
 text-align: left;
 }
 .navbar {
