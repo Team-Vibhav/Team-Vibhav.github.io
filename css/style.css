@@ -4598,7 +4598,12 @@ input:-internal-autofill-selected {
 
 /* line 20, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .footer_logo {
+  width: 20%;
   padding-bottom: 22px;
+}
+
+.footer_part .name {
+    display: inline-block;
 }
 
 /* line 23, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
@@ -4865,7 +4870,7 @@ input:-internal-autofill-selected {
 
 /* line 226, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .footer_img img {
-  width: 25%;
+  width: 50%;
   float: left;
   padding-right: 8px;
   margin-bottom: 8px;
