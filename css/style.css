@@ -4870,7 +4870,7 @@ input:-internal-autofill-selected {
 
 /* line 226, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .footer_img img {
-  width: 50%;
+  width: 25%;
   float: left;
   padding-right: 8px;
   margin-bottom: 8px;
