@@ -1,7 +1,7 @@
 # Team Vibhav
 ### Building a website for the team 
 
-## Contributing Guidlines 
+## Contributing Guidelines 
 
 <ol>1) Comment on the issue you want to work on, we will assign you to that issue!</ol>
 <ol>2) The issues are assigned on first come first serve basis.</ol>

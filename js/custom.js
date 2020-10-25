@@ -1,13 +1,25 @@
 (function ($) {
   "use strict";
 
-  $('.popup-youtube, .popup-vimeo').magnificPopup({
-    // disableOn: 700,
-    type: 'iframe',
-    mainClass: 'mfp-fade',
-    removalDelay: 160,
-    preloader: false,
-    fixedContentPos: false
+  $(document).ready(function(){
+    $('.popup-youtube, .popup-vimeo').magnificPopup({
+      // disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+      iframe:{
+        patterns:{
+          youtube:{
+          index: 'youtube.com',
+          id: 'v=',
+          src: 'https://www.youtube.com/embed/%id%'
+        },
+      },
+      srcAction:'iframe_src',
+    },
+      fixedContentPos: false
+    });
   });
 
 
@@ -85,8 +97,12 @@ $('.count').counterUp({
   time: 2000
 });
 
-
-//------- Mailchimp js --------//  
+$('#filters a').click(function() {
+  $('#filters a').removeClass('active');
+  $(this).addClass('active');
+  var selector = $(this).attr('data-filter');
+});
+//------- Mailchimp js --------//
 function mailChimp() {
   $('#mc_embed_signup').find('form').ajaxChimp();
 }
