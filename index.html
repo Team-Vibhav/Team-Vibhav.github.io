@@ -36,7 +36,7 @@
 <!-- kit code for fontawesome -->
 <script src="https://kit.fontawesome.com/06fc6fcfc0.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="">
 
 <header class="main_menu home_menu">
 <div class="container">
@@ -83,6 +83,19 @@ blog
 <a class="btn_2" href="#">learn more</a>
 </li>
 </ul>
+<!-- dark-mode -->
+<div class="float-right">
+  Dark_Mode
+  <label class="switch btn_d_m">
+  <input type="checkbox" onclick="dm_function()">
+  <span class="slider round"></span>
+  </label>
+</div>
+<script type="text/javascript">
+  function dm_function(){
+    document.body.classList.toggle('dark-mode');
+}
+</script>
 </div>
 </nav>
 </div>
