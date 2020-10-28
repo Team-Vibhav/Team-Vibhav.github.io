@@ -9244,7 +9244,7 @@ display:none;
   color : blue;
  }
 .dark-mode h1,.dark-mode h2,.dark-mode h3{
-  color: red;
+  color: #00a1ffd4;
 }
 
 .dark-mode .menu_fixed{
