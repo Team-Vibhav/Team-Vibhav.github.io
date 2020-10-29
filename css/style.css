@@ -9306,7 +9306,9 @@ background: linear-gradient(90deg, rgba(99,130,147,1) 35%, rgba(158,199,221,1) 6
   background: rgb(99,130,147);
   background: linear-gradient(90deg, rgba(99,130,147,1) 35%, rgba(158,199,221,1) 65%, rgba(213,225,232,1) 100%);
 }
-
+.dark-mode .banner_part{
+  background-image: radial-gradient(circle, rgba(98,144,153,1) 0%, rgba(69,158,184,1) 27%, rgba(180,202,205,1) 52%, rgba(81,160,193,1) 73%, rgba(77,149,157,1) 100%);
+}
 
 .float-right{
   float:right;
