@@ -102,8 +102,7 @@ blog
 </div>
 </div>
 </header>
-
-
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
 <section class="banner_part">
 <div class="container">
 <div class="row align-items-center justify-content-center">
@@ -899,5 +898,21 @@ Copyright ©<script type="text/javascript" async="" src="/analytics.js"></script
 
   gtag('config', 'UA-23581568-13');
 </script>
+<!-- scroll_to_top -->
+<script>
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </body></html>
