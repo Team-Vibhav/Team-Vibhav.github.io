@@ -4606,56 +4606,6 @@ input:-internal-autofill-selected {
     display: inline-block;
 }
 
-/* line 23, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours {
-  margin-top: 30px;
-}
-
-/* line 25, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours h5 {
-  font-size: 15px;
-  color: #555;
-  font-weight: 300;
-}
-
-/* line 31, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  z-index: 1;
-}
-
-/* line 36, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 10px;
-  z-index: -1;
-  width: 100%;
-  height: 1px;
-  border: 1px dotted #555555;
-}
-
-/* line 46, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li p {
-  color: #555555;
-  background-color: #faf4ff;
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-/* line 53, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li span {
-  line-height: 30px;
-  float: right;
-  color: #555555;
-  font-weight: 300;
-  background-color: #faf4ff;
-  display: inline-block;
-}
-
 @media (max-width: 576px) {
   /* line 64, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
   .footer_part .single_footer_part {
@@ -6929,56 +6879,6 @@ h1, h2, h3, h4, h5, h6 {
 /* line 20, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part .footer_logo {
   padding-bottom: 22px;
-}
-
-/* line 23, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours {
-  margin-top: 30px;
-}
-
-/* line 25, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours h5 {
-  font-size: 15px;
-  color: #555;
-  font-weight: 300;
-}
-
-/* line 31, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  z-index: 1;
-}
-
-/* line 36, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 10px;
-  z-index: -1;
-  width: 100%;
-  height: 1px;
-  border: 1px dotted #555555;
-}
-
-/* line 46, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li p {
-  color: #555555;
-  background-color: #faf4ff;
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-/* line 53, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li span {
-  line-height: 30px;
-  float: right;
-  color: #555555;
-  font-weight: 300;
-  background-color: #faf4ff;
-  display: inline-block;
 }
 
 @media (max-width: 576px) {
@@ -9298,7 +9198,7 @@ background: linear-gradient(90deg, rgba(99,130,147,1) 35%, rgba(158,199,221,1) 6
 .dark-mode .client_part .col-lg-12{
   background: white;
 }
-.dark-mode footer, .dark-mode .footer_part .work_hours ul li span, .dark-mode .footer_part .work_hours ul li p{
+.dark-mode footer{
   background: #d5e1e8;
 }
 .dark-mode .float-right{
