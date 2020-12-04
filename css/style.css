@@ -2194,9 +2194,6 @@ input:-internal-autofill-selected {
 .main_menu .btn_2 {
   padding: 10.5px 39px;
   margin-left: 55px;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #fff;
 }
 
 /* line 90, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
@@ -4566,7 +4563,7 @@ input:-internal-autofill-selected {
 /**********************footer part css*******************/
 /* line 2, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
 .footer_part {
-  background-color: #faf4ff;
+  background-color: #8d00ff5c;
   padding: 130px 0px 25px;
 }
 
@@ -4604,56 +4601,6 @@ input:-internal-autofill-selected {
 
 .footer_part .logo_name {
     display: inline-block;
-}
-
-/* line 23, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours {
-  margin-top: 30px;
-}
-
-/* line 25, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours h5 {
-  font-size: 15px;
-  color: #555;
-  font-weight: 300;
-}
-
-/* line 31, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  z-index: 1;
-}
-
-/* line 36, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 10px;
-  z-index: -1;
-  width: 100%;
-  height: 1px;
-  border: 1px dotted #555555;
-}
-
-/* line 46, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li p {
-  color: #555555;
-  background-color: #faf4ff;
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-/* line 53, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li span {
-  line-height: 30px;
-  float: right;
-  color: #555555;
-  font-weight: 300;
-  background-color: #faf4ff;
-  display: inline-block;
 }
 
 @media (max-width: 576px) {
@@ -6931,56 +6878,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 22px;
 }
 
-/* line 23, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours {
-  margin-top: 30px;
-}
-
-/* line 25, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours h5 {
-  font-size: 15px;
-  color: #555;
-  font-weight: 300;
-}
-
-/* line 31, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  z-index: 1;
-}
-
-/* line 36, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 10px;
-  z-index: -1;
-  width: 100%;
-  height: 1px;
-  border: 1px dotted #555555;
-}
-
-/* line 46, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li p {
-  color: #555555;
-  background-color: #faf4ff;
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-/* line 53, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
-.footer_part .work_hours ul li span {
-  line-height: 30px;
-  float: right;
-  color: #555555;
-  font-weight: 300;
-  background-color: #faf4ff;
-  display: inline-block;
-}
-
 @media (max-width: 576px) {
   /* line 64, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_footer.scss */
   .footer_part .single_footer_part {
@@ -9218,7 +9115,6 @@ display:none;
 }
 }
 
-
 #portfolio_wrapper{
   margin : auto;
   width : 90%;
@@ -9228,4 +9124,168 @@ display:none;
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: 1px solid #E5E4E2;
+  padding: 7px 15px;
+  border-radius: 7px;
+}
+#myBtn:hover {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 9px;
+}
+/* dark_mode */
+.dark-mode{
+    background: #072540 ;
+    color: white;
+}
+.dark-mode p, .dark-mode h5{
+  color: white;
+}
+.dark-mode .single_item h5{
+  color:#072540;
+  font-weight: 400;
+}
+.dark-mode h4{
+  color : blue;
+ }
+.dark-mode h1,.dark-mode h2,.dark-mode h3{
+  color: #00a1ffd4;
+}
+
+.dark-mode .menu_fixed{
+  background-color: #93c2db;
+}
+
+.dark-mode .service_part .single_service_text{
+  background: #d5e1e8;
+}
+.dark-mode .service_part .single_service_text p{
+  color : black;
+}
+.dark-mode .service_part .single_service_text:hover p{
+  color :black;
+}
+
+.dark-mode .service_part .single_service_text:hover{
+background: rgb(99,130,147);
+background: linear-gradient(90deg, rgba(99,130,147,1) 35%, rgba(158,199,221,1) 65%, rgba(213,225,232,1) 100%);
+}
+
+.dark-mode .banner_item .single_item:hover {
+  border: 1px solid #93c2db;
+  box-shadow: 5px 6px 4px 2px #d5e1e8;
+}
+.dark-mode .card-body{
+  background: #d5e1e8;
+}
+.dark-mode .card-body h5, .dark-mode .skill-count11{
+  color: #133a4f;
+}
+.dark-mode .banner_item .single_item{
+  background: #dae4ea;
+}
+.dark-mode .client_part .col-lg-12{
+  background: white;
+}
+.dark-mode footer{
+  background: #d5e1e8;
+}
+.dark-mode .float-right{
+  color : white
+}
+.dark-mode .btn_2{
+  background: #93c2db;
+  color:white;
+  border: 1px solid #93c2db;
+}
+.dark-mode .btn_3{
+  background: #93c2db;
+  color:white;
+  border: 1px solid #93c2db;
+}
+.dark-mode .btn_2:hover{
+  background: rgb(99,130,147);
+  background: linear-gradient(90deg, rgba(99,130,147,1) 35%, rgba(158,199,221,1) 65%, rgba(213,225,232,1) 100%);
+}
+.dark-mode .btn_3:hover{
+  background: rgb(99,130,147);
+  background: linear-gradient(90deg, rgba(99,130,147,1) 35%, rgba(158,199,221,1) 65%, rgba(213,225,232,1) 100%);
+}
+.dark-mode .banner_part{
+  background-image: radial-gradient(circle, rgba(98,144,153,1) 0%, rgba(69,158,184,1) 27%, rgba(180,202,205,1) 52%, rgba(81,160,193,1) 73%, rgba(77,149,157,1) 100%);
+}
+
+.float-right{
+  float:right;
+  width: 100%;
+  color: #2b292d;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Inter Black", "Helvetica", "Arial", san-serif;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 28px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #133a4f;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ccc;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ccc;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.slider.round {
+  border-radius: 28px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
