@@ -13,6 +13,6 @@
 
 ## Happy Contributing :)
 
-switched to new site : https://github.com/Team-Vibhav/Hacktoberfest-2k21
+switched to new site : vibhav-hacktoberfest-2k21.netlify.app
 
-Feel free to contribute at : 
+Feel free to contribute at : https://github.com/Team-Vibhav/Hacktoberfest-2k21
